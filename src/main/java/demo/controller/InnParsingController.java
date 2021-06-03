@@ -1,8 +1,11 @@
 package demo.controller;
 
-import com.example.demo.servises.InnParser;
-import com.example.demo.servises.InnService;
-import com.example.demo.servises.InnStatistics;
+//import com.example.demo.servises.InnParser;
+//import com.example.demo.servises.InnService;
+//import com.example.demo.servises.InnStatistics;
+import demo.servises.InnParser;
+import demo.servises.InnService;
+import demo.servises.InnStatistics;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,7 @@
 package demo;
 
-import com.example.demo.model.UserInn;
+
+import demo.model.UserInn;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

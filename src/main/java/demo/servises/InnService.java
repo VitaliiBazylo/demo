@@ -1,7 +1,9 @@
 package demo.servises;
 
-import com.example.demo.InnRepository;
-import com.example.demo.model.UserInn;
+//import com.example.demo.InnRepository;
+//import com.example.demo.model.UserInn;
+import demo.InnRepository;
+import demo.model.UserInn;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -22,7 +24,8 @@ public class InnService {
                         userInn.getZodiac(),
                         userInn.getLeapYear(),
                         userInn.getOld()
-                ));
+                )
+        );
         return userInn;
     }
 }
